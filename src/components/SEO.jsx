@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet-async";
 
 export default function SEO({ title, description, path, image }) {
   // ⚠️ IMPORTANTE: Sostituisci questo con il tuo dominio finale Vercel o custom domain
-  const siteUrl = "https://elijon-laska.vercel.app";
+  const siteUrl = "https://elijon-laska-full-stack-developer.vercel.app";
 
   const currentUrl = path ? `${siteUrl}${path}` : siteUrl;
   const metaTitle = title ? `${title} | Elijon Laska` : "Elijon Laska | Full Stack Developer";

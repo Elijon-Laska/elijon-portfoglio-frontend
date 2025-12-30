@@ -1,27 +1,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
-      <loc>https://elijon-laska.vercel.app/</loc>
+      <loc>https://elijon-laska-full-stack-developer.vercel.app/</loc>
       <lastmod>2025-01-01</lastmod>
       <priority>1.0</priority>
    </url>
    <url>
-      <loc>https://elijon-laska.vercel.app/Chi-Sono</loc>
+      <loc>https://elijon-laska-full-stack-developer.vercel.app/Chi-Sono</loc>
       <priority>0.8</priority>
    </url>
    <url>
-      <loc>https://elijon-laska.vercel.app/Competenze</loc>
+      <loc>https://elijon-laska-full-stack-developer.vercel.app/Competenze</loc>
       <priority>0.8</priority>
    </url>
    <url>
-      <loc>https://elijon-laska.vercel.app/Certificazioni</loc>
+      <loc>https://elijon-laska-full-stack-developer.vercel.app/Certificazioni</loc>
       <priority>0.8</priority>
    </url>
    <url>
-      <loc>https://elijon-laska.vercel.app/Servizi</loc>
+      <loc>https://elijon-laska-full-stack-developer.vercel.app/Servizi</loc>
       <priority>0.9</priority>
    </url>
    <url>
-      <loc>https://elijon-laska.vercel.app/Contattami</loc>
+      <loc>https://elijon-laska-full-stack-developer.vercel.app/Contattami</loc>
       <priority>0.9</priority>
    </url>
 </urlset>
