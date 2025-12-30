@@ -1,0 +1,390 @@
+/* ======================================================
+   PRESENTATION / TEXT
+====================================================== */
+
+.presentation-text h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: 2.5rem;
+}
+
+.presentation-text p {
+  margin-block: 2rem;
+  color: #334155;
+  line-height: 1.4;
+  font-size: 1.3rem;
+}
+
+/* ======================================================
+   TYPING PHRASES
+====================================================== */
+
+.typing-phrases {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  color: #666;
+  height: 1.5em;
+  position: relative;
+  min-height: 1.5em;
+}
+
+.phrase {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  font-weight: 600;
+  color: #244063;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #244063;
+  width: 0;
+  /* Nota: Assicurati che var(--steps) e var(--w) siano nel tuo HTML */
+  animation: typing 20s infinite steps(var(--steps), end);
+  will-change: width, opacity;
+}
+
+.phrase:nth-child(1) {
+  animation-delay: 0s;
+}
+.phrase:nth-child(2) {
+  animation-delay: -4s;
+}
+.phrase:nth-child(3) {
+  animation-delay: -8s;
+}
+.phrase:nth-child(4) {
+  animation-delay: -12s;
+}
+.phrase:nth-child(5) {
+  animation-delay: -16s;
+}
+
+@keyframes typing {
+  0% {
+    opacity: 0;
+    width: 0;
+  }
+  10% {
+    opacity: 1;
+    width: var(--w);
+  }
+  20% {
+    opacity: 1;
+    width: var(--w);
+  }
+  25% {
+    opacity: 0;
+    width: 0;
+  }
+  100% {
+    opacity: 0;
+    width: 0;
+  }
+}
+
+/* ======================================================
+   NAME LINK
+====================================================== */
+
+.nomeHome {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  margin-inline: 0.3rem;
+  background: linear-gradient(90deg, #d4d4d4 0%, #ffffff 20%, #bebebe 40%, #999999 100%);
+  background-size: 200% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  opacity: 0;
+  animation: nameDrop 2s cubic-bezier(0.2, 0.9, 0.2, 1) 0.2s both, shine 4s linear 0.8s infinite both;
+  text-decoration: none;
+  transition: transform 0.4s ease;
+}
+
+.nomeHome::after {
+  content: "";
+  position: absolute;
+  bottom: -0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 3rem;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #bdd7fa, transparent);
+  background-size: 200% 100%;
+  border-radius: 2px;
+  animation: slideTitle 3s ease-in-out infinite;
+}
+
+.nomeHome:hover,
+.nomeHome:focus {
+  transform: translateY(-2px) scale(1.07);
+  outline: none;
+}
+
+@keyframes nameDrop {
+  from {
+    opacity: 0.3;
+    transform: translateY(-12px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes shine {
+  from {
+    background-position: 100% 0;
+  }
+  to {
+    background-position: -100% 0;
+  }
+}
+
+/* ======================================================
+   RIGHT COLUMN STRUCTURE
+====================================================== */
+
+.profile-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+/* ======================================================
+   PROFILE IMAGE
+====================================================== */
+
+.profile-photo-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-photo-container {
+  width: 22.5rem; /* 360px */
+  height: 22.5rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  transition: transform 0.6s cubic-bezier(0.2, 0.9, 0.2, 1), border-radius 0.6s ease;
+  will-change: transform, border-radius;
+  /* Aggiunto z-index per evitare sovrapposizioni errate durante lo zoom */
+  z-index: 1;
+}
+
+.profile-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.profile-photo-container:hover,
+.profile-photo-container:focus-within {
+  transform: scale(1.15);
+  border-radius: 0;
+  box-shadow: 0 0.75rem 1.5rem rgba(51, 65, 85, 0.35);
+  z-index: 10; /* Porta in primo piano quando attiva */
+}
+
+/* ======================================================
+   OVERLAYS
+====================================================== */
+
+.profile-overlay,
+.profile-overlay2 {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.profile-overlay {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 1rem;
+  background: rgba(2, 6, 23, 0.44);
+  color: #fff;
+  transform: translateY(6px);
+}
+
+.profile-overlay2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 1.5rem;
+  background: transparent;
+  transform: translateY(6px);
+}
+
+.profile-photo-container:hover .profile-overlay,
+.profile-photo-container:focus-within .profile-overlay,
+.profile-photo-container:hover .profile-overlay2,
+.profile-photo-container:focus-within .profile-overlay2 {
+  opacity: 1;
+  transform: none;
+  pointer-events: auto;
+}
+
+.overlay-text .name {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.overlay-text .role {
+  font-size: 0.95rem;
+  margin-top: 0.25rem;
+}
+
+/* ======================================================
+   SKILLS OVERLAY ANIMATION
+====================================================== */
+
+.overlay-text2 > div {
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin: 0.5rem 0;
+  color: #ffffff;
+  text-shadow: 0 2px 8px rgba(2, 6, 23, 0.6);
+  opacity: 0;
+}
+
+.profile-photo-container:hover .overlay-text2 > div,
+.profile-photo-container:focus-within .overlay-text2 > div {
+  animation-name: fallDown;
+  animation-duration: 0.6s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+/* Ritardi cascata */
+.profile-photo-container:hover .overlay-text2 > div:nth-child(1),
+.profile-photo-container:focus-within .overlay-text2 > div:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.profile-photo-container:hover .overlay-text2 > div:nth-child(2),
+.profile-photo-container:focus-within .overlay-text2 > div:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.profile-photo-container:hover .overlay-text2 > div:nth-child(3),
+.profile-photo-container:focus-within .overlay-text2 > div:nth-child(3) {
+  animation-delay: 0.6s;
+}
+.profile-photo-container:hover .overlay-text2 > div:nth-child(4),
+.profile-photo-container:focus-within .overlay-text2 > div:nth-child(4) {
+  animation-delay: 0.8s;
+}
+.profile-photo-container:hover .overlay-text2 > div:nth-child(5),
+.profile-photo-container:focus-within .overlay-text2 > div:nth-child(5) {
+  animation-delay: 1s;
+}
+.profile-photo-container:hover .overlay-text2 > div:nth-child(6),
+.profile-photo-container:focus-within .overlay-text2 > div:nth-child(6) {
+  animation-delay: 1.2s;
+}
+.profile-photo-container:hover .overlay-text2 > div:nth-child(7),
+.profile-photo-container:focus-within .overlay-text2 > div:nth-child(7) {
+  animation-delay: 1.4s;
+}
+.profile-photo-container:hover .overlay-text2 > div:nth-child(8),
+.profile-photo-container:focus-within .overlay-text2 > div:nth-child(8) {
+  animation-delay: 1.6s;
+}
+.profile-photo-container:hover .overlay-text2 > div:nth-child(9),
+.profile-photo-container:focus-within .overlay-text2 > div:nth-child(9) {
+  animation-delay: 1.8s;
+}
+.profile-photo-container:hover .overlay-text2 > div:nth-child(10),
+.profile-photo-container:focus-within .overlay-text2 > div:nth-child(10) {
+  animation-delay: 2s;
+}
+.profile-photo-container:hover .overlay-text2 > div:nth-child(11),
+.profile-photo-container:focus-within .overlay-text2 > div:nth-child(11) {
+  animation-delay: 2.2s;
+}
+
+@keyframes fallDown {
+  from {
+    opacity: 0;
+    transform: translateY(-1.5rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ======================================================
+   CTA (BUTTONS UNDER IMAGE)
+   Nota: Ho rimosso il duplicato e unito le logiche.
+====================================================== */
+
+.profile-cta {
+  display: flex;
+  flex-direction: row; /* Default: affiancati orizzontalmente */
+  justify-content: center;
+  align-items: flex-start; /* Evita che si deformino se hanno altezze diverse */
+  gap: 0.5rem;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 1rem; /* Spazio di sicurezza sotto la foto */
+}
+
+/* ======================================================
+   SKILLS BUTTONS (LEFT SIDE)
+====================================================== */
+
+.skills-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 1.5rem;
+  color: #212121;
+  font-weight: 600;
+  transition: transform 0.3s ease;
+}
+
+.skills-button:hover {
+  transform: scale(1.05);
+}
+
+.skills-button .tools {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  text-align: center;
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: #656565;
+}
+
+.skills-button:hover .tools {
+  max-height: 12.5rem;
+  opacity: 1;
+}
+
+/* ======================================================
+   RESPONSIVE (UNIFICATO)
+====================================================== */
+
+@media (max-width: 700px) {
+  .profile-photo-container {
+    width: 12.5rem; /* 200px */
+    height: 12.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .profile-cta {
+    flex-wrap: wrap; /* Se lo schermo è minuscolo, vanno a capo */
+  }
+}

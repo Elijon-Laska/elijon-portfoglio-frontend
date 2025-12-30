@@ -1,0 +1,454 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "Chi Sono",
+    "skills": "Competenze",
+    "certifications": "Certificazioni",
+    "services": "Servizi",
+    "contact": "Contattami",
+    "search_placeholder": "Scrivi qui...",
+    "search_button": "Cerca"
+  },
+  "home": {
+    "greeting": "Ciao, io sono",
+    "role_description": "Costruisco esperienze digitali moderne, scalabili e intuitive. Appassionato di tecnologia e innovazione, trasformo idee in soluzioni funzionali che connettono persone e tecnologia.",
+    "typing": {
+      "creator": "Creator",
+      "fullstack": "Full-Stack Developer",
+      "innovator": "Innovator",
+      "problem_solver": "Problem Solver",
+      "enthusiast": "IT Enthusiast"
+    },
+    "actions": {
+      "quote": "Richiedi Preventivo",
+      "collaborate": "Collabora",
+      "services": "Servizi"
+    }
+  },
+  "settings": {
+    "preferences": "Preferenze",
+    "theme": "Aspetto",
+    "language": "Lingua",
+    "light": "Chiaro",
+    "dark": "Scuro"
+  },
+
+  "modals": {
+    "titles": {
+      "quote": "Richiedi un Preventivo",
+      "collaborate": "Collabora con me",
+      "project_proposal": "Proponi il tuo Progetto",
+      "job_proposal": "Proponi un'Opportunità",
+      "success": "Messaggio Ricevuto!",
+      "error": "Errore"
+    },
+    "labels": {
+      "name": "Nome",
+      "email": "Email",
+      "company": "Azienda",
+      "position": "Posizione",
+      "project_type": "Tipo di Progetto",
+      "description": "Descrizione Progetto",
+      "description_idea": "Descrivi la tua idea",
+      "description_job": "Descrizione del Lavoro",
+      "features": "Funzionalità Desiderate",
+      "timeline": "Timeline Desiderata",
+      "budget": "Budget Stimato"
+    },
+    "placeholders": {
+      "name": "Il tuo nome",
+      "email": "latua@email.com",
+      "description": "Raccontami la tua idea...",
+      "description_job": "Dettagli sulla posizione...",
+      "timeline": "Es. 2 mesi",
+      "budget": "Es. 3000€",
+      "select": "Seleziona..."
+    },
+    "buttons": {
+      "cancel": "Annulla",
+      "send_request": "Invia Richiesta",
+      "send_proposal": "Invia Proposta",
+      "sending": "Invio in corso...",
+      "back": "Torna indietro",
+      "close": "Chiudi",
+      "go_to_contacts": "Vai alla pagina Contatti"
+    },
+    "messages": {
+      "privacy_error": "Devi accettare la Privacy Policy.",
+      "success_text": "Grazie, ti risponderò al più presto.",
+      "direct_contact": "Preferisci un approccio più diretto?",
+      "privacy_label": "Ho letto e accetto la"
+    },
+    "menu": {
+      "intro": "Come vuoi collaborare?",
+      "project_title": "Proponi un Progetto",
+      "project_desc": "Realizziamo la tua idea.",
+      "job_title": "Proponi un Lavoro",
+      "job_desc": "Assunzione o collaborazione."
+    },
+    "options": {
+      "types": {
+        "website": "Sito Web / Landing Page",
+        "webapp": "Web Application",
+        "ecommerce": "E-commerce",
+        "blog": "Blog / CMS",
+        "api": "API / Backend",
+        "other": "Altro"
+      },
+      "features": {
+        "responsive": "Design Responsive",
+        "seo": "Ottimizzazione SEO",
+        "admin": "Dashboard Admin",
+        "login": "Sistema Login",
+        "payments": "Pagamenti Online",
+        "chat": "Chat / Messaggistica",
+        "multilang": "Multilingua",
+        "3d": "Animazioni 3D"
+      },
+      "timelines": {
+        "short": "1-2 settimane",
+        "medium": "1 mese",
+        "long": "2-3 mesi",
+        "very_long": "3+ mesi",
+        "tbd": "Da concordare"
+      },
+      "budgets": {
+        "small": "< 1.000 €",
+        "medium": "1.000 - 3.000 €",
+        "large": "3.000 - 5.000 €",
+        "xl": "5.000 - 10.000 €",
+        "xxl": "10.000+ €",
+        "tbd": "Da Concordare"
+      }
+    }
+  },
+  "footer": {
+    "role": "Full Stack Developer",
+    "description": "Full-Stack Web Developer appassionato di tecnologie moderne. Creo esperienze digitali innovative e soluzioni scalabili per trasformare le tue idee in realtà.",
+    "quick_links": "Link Rapidi",
+    "services_title": "Servizi",
+    "copyright": "Tutti i diritti riservati.",
+    "services_list": {
+      "frontend": "Sviluppo Frontend",
+      "backend": "Sviluppo Backend",
+      "fullstack": "Full-Stack Development",
+      "consulting": "Consulenza Tecnica",
+      "uiux": "UI/UX Design"
+    }
+  },
+  "about": {
+    "hero": {
+      "tag": "La mia storia",
+      "title_1": "Non scrivo solo codice.",
+      "title_2": "Costruisco Soluzioni.",
+      "desc_1": "Ciao! Sono <bold>Elijon</bold>. Dietro ogni linea di codice c'è la voglia di risolvere un problema reale. Sono uno sviluppatore Full Stack che ama l'ordine del Backend e la creatività del Frontend.",
+      "desc_2": "Quando non sono davanti al monitor, mi trovi a esplorare nuove tecnologie, ottimizzare processi o cercare l'ispirazione per il prossimo progetto.",
+      "download_cv": "Scarica il mio CV"
+    },
+    "timeline": {
+      "title": "Il Mio Percorso",
+      "subtitle": "Un viaggio di apprendimento continuo, una riga di codice alla volta.",
+      "step_1": {
+        "title": "L'Inizio",
+        "desc": "Dopo anni di stop, ho riscritto la mia prima riga di HTML. La curiosità ha riacceso subito la passione."
+      },
+      "step_2": {
+        "title": "Epicode e l'avventura Full Stack",
+        "desc": "Ho completato il corso Full Stack di Epicode, immergendomi in JavaScript, Java, React, Spring e molto altro."
+      },
+      "step_3": {
+        "title": "Da Principiante a Sviluppatore",
+        "desc": "Dopo aver ottenuto la certificazione, ho iniziato a lavorare su progetti reali, collaborando con team dinamici."
+      },
+      "step_4": {
+        "title": "Innovazione Continua",
+        "desc": "Sviluppo soluzioni scalabili, studio nuove architetture e trasformo idee in realtà digitali."
+      }
+    },
+    "soft_skills": {
+      "title": "Oltre la Tecnica",
+      "subtitle": "Le competenze umane che porto in ogni team.",
+      "list": {
+        "problem_solving": "Problem Solving Creativo",
+        "communication": "Comunicazione Efficace",
+        "time_mgmt": "Gestione del Tempo",
+        "teamwork": "Lavoro di Squadra",
+        "adaptability": "Adattabilità",
+        "curiosity": "Curiosità Infinita"
+      }
+    },
+    "work_mode": {
+      "title": "Modalità di Lavoro",
+      "subtitle": "Flessibilità e presenza, ovunque serva.",
+      "remote": {
+        "badge": "Primaria",
+        "title": "Collaborazioni Remote",
+        "desc": "Lavoro con clienti e team in tutto il mondo.",
+        "feat_1": "Comunicazione asincrona efficace",
+        "feat_2": "Fuso orario flessibile",
+        "feat_3": "Setup professionale dedicato"
+      },
+      "local": {
+        "title": "Basi Operative Locali",
+        "desc": "Disponibile per lavoro ibrido o on-site.",
+        "location": "Roma",
+        "cta": "Proponi Progetto/Assumimi"
+      }
+    },
+    "cta": {
+      "title": "Pronto a creare qualcosa di straordinario?",
+      "desc": "Che tu abbia un'idea per un'app o cerchi qualcuno che si unisca al tuo team, parliamone.",
+      "contact_btn": "Contattami",
+      "skills_btn": "Vedi Competenze"
+    }
+  },
+
+  "skills": {
+    "hero": {
+      "tag": "Technical Arsenal",
+      "title_1": "Competenze",
+      "title_2": "Analitiche & Creative",
+      "desc": "Un mix di tecnologie solide come <bold>Java</bold> e moderne come <bold>React</bold>. Costruisco architetture scalabili con un occhio di riguardo per l'esperienza utente."
+    },
+    "stats": {
+      "training": "Ore di Formazione",
+      "techs": "Tecnologie",
+      "fullstack": "Full Stack",
+      "passion": "Passione"
+    },
+    "hard": {
+      "title": "Hard Skills",
+      "subtitle": "Lo stack tecnologico che utilizzo quotidianamente.",
+      "frontend_desc": "Creazione di interfacce responsive e dinamiche.",
+      "backend_desc": "Logica server-side robusta e scalabile.",
+      "db_desc": "Gestione e modellazione dei dati.",
+      "tools_desc": "Strumenti per il flusso di lavoro moderno."
+    },
+    "soft": {
+      "title": "Soft Skills",
+      "subtitle": "Le competenze umane che guidano il mio lavoro.",
+      "list": {
+        "problem_solving": {
+          "cat": "Capacità Cognitive",
+          "title": "Problem Solving Creativo",
+          "desc": "Trovo soluzioni tecniche innovative analizzando sfide complesse."
+        },
+        "strategic": {
+          "cat": "Capacità Cognitive",
+          "title": "Pensiero Strategico",
+          "desc": "Pianificazione architettonica a lungo termine e analisi requisiti."
+        },
+        "communication": {
+          "cat": "Relazioni",
+          "title": "Comunicazione Chiara",
+          "desc": "Spiego concetti tecnici in modo semplice a team e clienti."
+        },
+        "teamwork": {
+          "cat": "Relazioni",
+          "title": "Empatia & Teamwork",
+          "desc": "Rispetto reciproco per un ambiente collaborativo."
+        },
+        "client": {
+          "cat": "Relazioni",
+          "title": "Orientamento al Cliente",
+          "desc": "Metto le esigenze dell'utente al centro della soluzione."
+        },
+        "autonomy": {
+          "cat": "Crescita Personale",
+          "title": "Autonomia",
+          "desc": "Gestione efficace del tempo e delle scadenze."
+        },
+        "adaptability": {
+          "cat": "Crescita Personale",
+          "title": "Adattabilità",
+          "desc": "Imparo rapidamente nuove tecnologie adattandomi ai cambiamenti."
+        },
+        "details": {
+          "cat": "Professionale",
+          "title": "Attenzione ai Dettagli",
+          "desc": "Cura meticolosa nel codice (Clean Code) e focus sulla UX."
+        },
+        "proactivity": {
+          "cat": "Professionale",
+          "title": "Proattività",
+          "desc": "Anticipo le necessità e propongo miglioramenti."
+        },
+        "innovation": {
+          "cat": "Creatività",
+          "title": "Innovazione",
+          "desc": "Trasformo idee astratte in soluzioni digitali funzionali."
+        }
+      }
+    },
+    "cta": {
+      "title": "È vero che il codice parla più forte, ma anche le certificazioni contano.",
+      "desc": "\"So di non sapere\", evidenziando che la consapevolezza dei propri limiti è il primo passo verso la vera conoscenza.",
+      "btn": "Vedi Certificazioni"
+    }
+  },
+  "certifications": {
+    "hero": {
+      "tag": "Riconoscimenti Ufficiali",
+      "title": "Certificazioni &",
+      "highlight": "Traguardi Accademici",
+      "desc": "La prova tangibile del mio percorso. Dalle basi accademiche alle specializzazioni tecniche più avanzate."
+    },
+    "main_title": "Certificazioni Master",
+    "main_desc": "I pilastri della mia formazione professionale.",
+    "modules_title": "Moduli Tecnici Specialistici",
+    "modules_desc": "Il mio stack tecnologico scomposto in moduli.",
+    "modules_hover": "Passa il mouse per esplorare",
+    "diploma": {
+      "title": "Diploma Istituto Tecnico Tecnologico",
+      "school": "I.T.T. Ettore Majorana - Milazzo",
+      "year_label": "Anno",
+      "year_val": "Conseguito nel 2016",
+      "skills_label": "Competenze IT",
+      "skills_val": "Sistemi, Principles, Logica di Programmazione"
+    },
+    "card": {
+      "verified": "VERIFIED",
+      "view_pdf": "Visualizza PDF"
+    },
+    "list": {
+      "fullstack": {
+        "title": "Graduation Certificate: Full-Stack Developer",
+        "issuer": "Epicode Institute of Technology",
+        "hours": "Bootcamp Intensivo",
+        "desc": "Percorso completo su tecnologie moderne. Acquisizione competenze in OOP, MVC e SPA."
+      },
+      "adecco": {
+        "title": "Analista Programmatore Jr",
+        "issuer": "Adecco Formazione / Forma.Temp",
+        "hours": "102 Ore",
+        "desc": "Corso professionale focalizzato sull'analisi tecnica e lo sviluppo software."
+      },
+      "python": {
+        "title": "Python Intermediate",
+        "issuer": "Epicode Institute of Technology",
+        "hours": "6 Ore",
+        "desc": "Approfondimento sul linguaggio Python e manipolazione dati."
+      }
+    }
+  },
+  "services": {
+    "hero": {
+      "tag": "Soluzioni Digitali",
+      "title_1": "Trasformo le tue Idee",
+      "title_2": "in Realtà Digitale",
+      "desc": "Dallo sviluppo full-stack alle automazioni AI. Offro servizi su misura utilizzando le tecnologie più moderne per garantire velocità, sicurezza e scalabilità."
+    },
+    "stats": {
+      "services": "Servizi Specializzati",
+      "projects": "Progetti Completati",
+      "dedication": "Dedizione",
+      "support": "Supporto"
+    },
+    "list": {
+      "frontend": {
+        "title": "Sviluppo Frontend Moderno",
+        "desc": "Creazione di interfacce reattive e performanti con React, Vite e TailwindCSS."
+      },
+      "backend": {
+        "title": "Backend & API Custom",
+        "desc": "Server sicuri con Node.js/Express e database MongoDB o SQL. Autenticazioni robuste e API REST."
+      },
+      "fullstack": {
+        "title": "Soluzioni Full-Stack",
+        "desc": "Servizio end-to-end: dalla progettazione al deploy. Web app complete, veloci e sicure."
+      },
+      "chatbot": {
+        "title": "Chatbot & Automazioni",
+        "desc": "Bot intelligenti per Telegram, WhatsApp o Web. Automatizza risposte e processi aziendali."
+      },
+      "webapp": {
+        "title": "Web App Interattive",
+        "desc": "Applicazioni dinamiche SPA con logiche complesse. Perfette per gestionali e piattaforme."
+      },
+      "consulting": {
+        "title": "Consulenze Tecniche",
+        "desc": "Supporto per startup: code review, ottimizzazione performance e strategie di crescita."
+      },
+      "ai": {
+        "title": "Integrazione ChatGPT & AI",
+        "desc": "Porta l'IA nelle tue app. Assistenti virtuali, generatori di contenuti e automazioni intelligenti."
+      },
+      "seo": {
+        "title": "Ottimizzazione SEO Tecnica",
+        "desc": "Migliora il posizionamento dei tuoi siti React. Analisi performance e Core Web Vitals."
+      },
+      "uiux": {
+        "title": "UI/UX & Prototipazione",
+        "desc": "Design intuitivi in Figma. Dai wireframe ai prototipi interattivi, focalizzati sull'esperienza utente."
+      },
+      "maintenance": {
+        "title": "Manutenzione & Supporto",
+        "desc": "Monitoraggio, aggiornamenti di sicurezza e implementazione nuove feature post-deploy."
+      }
+    },
+    "card_btn": "Richiedi Preventivo",
+    "cta": {
+      "title": "Hai un progetto in mente?",
+      "desc": "Non sai quale servizio è più adatto a te? Parliamone. Offro una prima consulenza gratuita per analizzare le tue esigenze.",
+      "btn": "Inizia il Progetto"
+    }
+  },
+  "contact": {
+    "hero": {
+      "tag": "Let's Talk",
+      "title_1": "Parliamo del tuo",
+      "title_2": "Prossimo Progetto",
+      "desc": "Hai un progetto in mente? Vuoi collaborare o semplicemente fare una chiacchierata? Scrivimi e ti risponderò velocemente!"
+    },
+    "social": {
+      "title": "Seguimi sui Social",
+      "github_sub": "Il mio codice",
+      "linkedin_sub": "Network & Jobs",
+      "email_sub": "Scrivimi ora",
+      "whatsapp_sub": "Chat rapida"
+    },
+    "help": {
+      "title": "Come posso aiutarti?",
+      "quote_title": "Chiedi un preventivo",
+      "quote_desc": "Per progetti web, sviluppo e consulenze.",
+      "collab_title": "Collabora con me",
+      "collab_desc": "Partnership e progetti condivisi.",
+      "info_title": "Chiedi informazioni",
+      "info_desc": "Domande generali e supporto."
+    },
+    "fast_response": {
+      "title": "Risposta veloce garantita",
+      "desc": "Ti rispondo entro <bold>24 ore lavorative</bold>. Per urgenze, scrivimi via email."
+    },
+    "form": {
+      "title": "Scrivimi Ora",
+      "subtitle": "Compila il form e ti ricontatterò presto.",
+      "success_title": "Messaggio Inviato!",
+      "success_desc": "Grazie per avermi contattato. Ti risponderò al più presto.",
+      "success_btn": "Invia un altro messaggio",
+      "labels": {
+        "name": "Nome Completo",
+        "email": "Email",
+        "subject": "Argomento",
+        "message": "Messaggio"
+      },
+      "placeholders": {
+        "name": "Mario Rossi",
+        "email": "mario@esempio.com",
+        "message": "Raccontami del tuo progetto..."
+      },
+      "subjects": {
+        "quote": "Richiesta Preventivo",
+        "collab": "Proposta Collaborazione",
+        "info": "Richiesta Informazioni",
+        "other": "Altro"
+      },
+      "privacy": "Ho letto e accetto la <link>Privacy Policy</link>. Acconsento al trattamento dei dati.",
+      "btn_submit": "Invia Messaggio",
+      "btn_sending": "Invio in corso...",
+      "security": "I tuoi dati sono al sicuro.",
+      "error_alert": "Errore nell'invio. Controlla la console o riprova più tardi.",
+      "privacy_alert": "Per procedere devi accettare l'informativa sulla privacy."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+/* 1. Importa Tailwind v4 */
+@import "tailwindcss";
+
+/* 2. I tuoi stili custom globali */
+/* Aggiungi questo per gestire il background globale */
+body {
+  @apply bg-white text-slate-800 transition-colors duration-300;
+}
+
+/* Quando è attiva la dark mode */
+.dark body {
+  @apply bg-slate-950 text-slate-100;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+}

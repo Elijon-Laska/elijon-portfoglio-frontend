@@ -1,0 +1,453 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About Me",
+    "skills": "Skills",
+    "certifications": "Certifications",
+    "services": "Services",
+    "contact": "Contact Me",
+    "search_placeholder": "Write here...",
+    "search_button": "Search"
+  },
+  "home": {
+    "greeting": "Hi, I am",
+    "role_description": "I build modern, scalable, and intuitive digital experiences. Passionate about technology and innovation, I transform ideas into functional solutions that connect people and technology.",
+    "typing": {
+      "creator": "Creator",
+      "fullstack": "Full-Stack Developer",
+      "innovator": "Innovator",
+      "problem_solver": "Problem Solver",
+      "enthusiast": "IT Enthusiast"
+    },
+    "actions": {
+      "quote": "Get a Quote",
+      "collaborate": "Collaborate",
+      "services": "Services"
+    }
+  },
+  "settings": {
+    "preferences": "Preferences",
+    "theme": "Appearance",
+    "language": "Language",
+    "light": "Light",
+    "dark": "Dark"
+  },
+
+  "modals": {
+    "titles": {
+      "quote": "Request a Quote",
+      "collaborate": "Collaborate with me",
+      "project_proposal": "Propose your Project",
+      "job_proposal": "Job Opportunity",
+      "success": "Message Received!",
+      "error": "Error"
+    },
+    "labels": {
+      "name": "Name",
+      "email": "Email",
+      "company": "Company",
+      "position": "Position",
+      "project_type": "Project Type",
+      "description": "Project Description",
+      "description_idea": "Describe your idea",
+      "description_job": "Job Description",
+      "features": "Desired Features",
+      "timeline": "Desired Timeline",
+      "budget": "Estimated Budget"
+    },
+    "placeholders": {
+      "name": "Your name",
+      "email": "you@email.com",
+      "description": "Tell me about your idea...",
+      "description_job": "Details about the position...",
+      "timeline": "E.g. 2 months",
+      "budget": "E.g. 3000€",
+      "select": "Select..."
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "send_request": "Send Request",
+      "send_proposal": "Send Proposal",
+      "sending": "Sending...",
+      "back": "Go back",
+      "close": "Close",
+      "go_to_contacts": "Go to Contact page"
+    },
+    "messages": {
+      "privacy_error": "You must accept the Privacy Policy.",
+      "success_text": "Thank you, I will reply as soon as possible.",
+      "direct_contact": "Prefer a more direct approach?",
+      "privacy_label": "I have read and accept the"
+    },
+    "menu": {
+      "intro": "How would you like to collaborate?",
+      "project_title": "Propose a Project",
+      "project_desc": "Let's build your idea.",
+      "job_title": "Offer a Job",
+      "job_desc": "Hiring or partnership."
+    },
+    "options": {
+      "types": {
+        "website": "Website / Landing Page",
+        "webapp": "Web Application",
+        "ecommerce": "E-commerce",
+        "blog": "Blog / CMS",
+        "api": "API / Backend",
+        "other": "Other"
+      },
+      "features": {
+        "responsive": "Responsive Design",
+        "seo": "SEO Optimization",
+        "admin": "Admin Dashboard",
+        "login": "Login System",
+        "payments": "Online Payments",
+        "chat": "Chat / Messaging",
+        "multilang": "Multi-language",
+        "3d": "3D Animations"
+      },
+      "timelines": {
+        "short": "1-2 weeks",
+        "medium": "1 month",
+        "long": "2-3 months",
+        "very_long": "3+ months",
+        "tbd": "To be agreed"
+      },
+      "budgets": {
+        "small": "< 1.000 €",
+        "medium": "1.000 - 3.000 €",
+        "large": "3.000 - 5.000 €",
+        "xl": "5.000 - 10.000 €",
+        "xxl": "10.000+ €",
+        "tbd": "To be agreed"
+      }
+    }
+  },
+  "footer": {
+    "role": "Full Stack Developer",
+    "description": "Full-Stack Web Developer passionate about modern technologies. I create innovative digital experiences and scalable solutions to turn your ideas into reality.",
+    "quick_links": "Quick Links",
+    "services_title": "Services",
+    "copyright": "All rights reserved.",
+    "services_list": {
+      "frontend": "Frontend Development",
+      "backend": "Backend Development",
+      "fullstack": "Full-Stack Development",
+      "consulting": "Technical Consulting",
+      "uiux": "UI/UX Design"
+    }
+  },
+  "about": {
+    "hero": {
+      "tag": "My Story",
+      "title_1": "I don't just write code.",
+      "title_2": "I Build Solutions.",
+      "desc_1": "Hi! I'm <bold>Elijon</bold>. Behind every line of code is the desire to solve a real problem. I'm a Full Stack developer who loves the order of Backend and the creativity of Frontend.",
+      "desc_2": "When I'm not in front of the screen, you can find me exploring new technologies, optimizing processes, or looking for inspiration for the next project.",
+      "download_cv": "Download my CV"
+    },
+    "timeline": {
+      "title": "My Journey",
+      "subtitle": "A journey of continuous learning, one line of code at a time.",
+      "step_1": {
+        "title": "The Beginning",
+        "desc": "After years of stopping, I rewrote my first line of HTML. Curiosity immediately reignited the passion."
+      },
+      "step_2": {
+        "title": "Epicode & Full Stack Adventure",
+        "desc": "I completed the Epicode Full Stack course, diving into JavaScript, Java, React, Spring, and much more."
+      },
+      "step_3": {
+        "title": "From Beginner to Developer",
+        "desc": "After obtaining the certification, I started working on real projects, collaborating with dynamic teams."
+      },
+      "step_4": {
+        "title": "Continuous Innovation",
+        "desc": "I develop scalable solutions, study new architectures, and turn ideas into digital realities."
+      }
+    },
+    "soft_skills": {
+      "title": "Beyond Technical Skills",
+      "subtitle": "The human skills I bring to every team.",
+      "list": {
+        "problem_solving": "Creative Problem Solving",
+        "communication": "Effective Communication",
+        "time_mgmt": "Time Management",
+        "teamwork": "Teamwork",
+        "adaptability": "Adaptability",
+        "curiosity": "Infinite Curiosity"
+      }
+    },
+    "work_mode": {
+      "title": "Work Mode",
+      "subtitle": "Flexibility and presence, wherever needed.",
+      "remote": {
+        "badge": "Primary",
+        "title": "Remote Collaboration",
+        "desc": "I work with clients and teams all over the world.",
+        "feat_1": "Effective asynchronous communication",
+        "feat_2": "Flexible time zone",
+        "feat_3": "Professional dedicated setup"
+      },
+      "local": {
+        "title": "Local Operations Base",
+        "desc": "Available for hybrid or on-site work.",
+        "location": "Rome",
+        "cta": "Propose Project/Hire Me"
+      }
+    },
+    "cta": {
+      "title": "Ready to create something extraordinary?",
+      "desc": "Whether you have an app idea or are looking for someone to join your team, let's talk.",
+      "contact_btn": "Contact Me",
+      "skills_btn": "View Skills"
+    }
+  },
+  "skills": {
+    "hero": {
+      "tag": "Technical Arsenal",
+      "title_1": "Skills",
+      "title_2": "Analytical & Creative",
+      "desc": "A mix of solid technologies like <bold>Java</bold> and modern ones like <bold>React</bold>. I build scalable architectures with a focus on user experience."
+    },
+    "stats": {
+      "training": "Training Hours",
+      "techs": "Technologies",
+      "fullstack": "Full Stack",
+      "passion": "Passion"
+    },
+    "hard": {
+      "title": "Hard Skills",
+      "subtitle": "The tech stack I use daily.",
+      "frontend_desc": "Creating responsive and dynamic interfaces.",
+      "backend_desc": "Robust and scalable server-side logic.",
+      "db_desc": "Data management and modeling.",
+      "tools_desc": "Tools for the modern workflow."
+    },
+    "soft": {
+      "title": "Soft Skills",
+      "subtitle": "The human skills that guide my work.",
+      "list": {
+        "problem_solving": {
+          "cat": "Cognitive Skills",
+          "title": "Creative Problem Solving",
+          "desc": "I find innovative technical solutions by analyzing complex challenges."
+        },
+        "strategic": {
+          "cat": "Cognitive Skills",
+          "title": "Strategic Thinking",
+          "desc": "Long-term architectural planning and requirements analysis."
+        },
+        "communication": {
+          "cat": "Relationships",
+          "title": "Clear Communication",
+          "desc": "I explain technical concepts simply to teams and clients."
+        },
+        "teamwork": {
+          "cat": "Relationships",
+          "title": "Empathy & Teamwork",
+          "desc": "Mutual respect for a collaborative environment."
+        },
+        "client": {
+          "cat": "Relationships",
+          "title": "Client Orientation",
+          "desc": "I put user needs at the center of the solution."
+        },
+        "autonomy": {
+          "cat": "Personal Growth",
+          "title": "Autonomy",
+          "desc": "Effective time and deadline management."
+        },
+        "adaptability": {
+          "cat": "Personal Growth",
+          "title": "Adaptability",
+          "desc": "I learn new technologies quickly, adapting to changes."
+        },
+        "details": {
+          "cat": "Professional",
+          "title": "Attention to Detail",
+          "desc": "Meticulous care in code (Clean Code) and focus on UX."
+        },
+        "proactivity": {
+          "cat": "Professional",
+          "title": "Proactivity",
+          "desc": "I anticipate needs and propose improvements."
+        },
+        "innovation": {
+          "cat": "Creativity",
+          "title": "Innovation",
+          "desc": "I transform abstract ideas into functional digital solutions."
+        }
+      }
+    },
+    "cta": {
+      "title": "Code speaks louder, but certifications matter too.",
+      "desc": "\"I know that I know nothing\", highlighting that awareness of one's limits is the first step towards true knowledge.",
+      "btn": "View Certifications"
+    }
+  },
+  "certifications": {
+    "hero": {
+      "tag": "Official Recognitions",
+      "title": "Certifications &",
+      "highlight": "Academic Achievements",
+      "desc": "Tangible proof of my journey. From academic foundations to advanced technical specializations."
+    },
+    "main_title": "Master Certifications",
+    "main_desc": "The pillars of my professional training.",
+    "modules_title": "Technical Specialist Modules",
+    "modules_desc": "My tech stack broken down into modules.",
+    "modules_hover": "Hover to explore",
+    "diploma": {
+      "title": "Technical Institute Diploma",
+      "school": "I.T.T. Ettore Majorana - Milazzo",
+      "year_label": "Year",
+      "year_val": "Achieved in 2016",
+      "skills_label": "IT Skills",
+      "skills_val": "Systems, Principles, Programming Logic"
+    },
+    "card": {
+      "verified": "VERIFIED",
+      "view_pdf": "View PDF"
+    },
+    "list": {
+      "fullstack": {
+        "title": "Graduation Certificate: Full-Stack Developer",
+        "issuer": "Epicode Institute of Technology",
+        "hours": "Intensive Bootcamp",
+        "desc": "Complete path on modern technologies. Skills acquisition in OOP, MVC and SPA."
+      },
+      "adecco": {
+        "title": "Junior Programmer Analyst",
+        "issuer": "Adecco Training / Forma.Temp",
+        "hours": "102 Hours",
+        "desc": "Professional course focused on technical analysis and software development."
+      },
+      "python": {
+        "title": "Python Intermediate",
+        "issuer": "Epicode Institute of Technology",
+        "hours": "6 Hours",
+        "desc": "Deep dive into Python language and data manipulation."
+      }
+    }
+  },
+  "services": {
+    "hero": {
+      "tag": "Digital Solutions",
+      "title_1": "Turning Your Ideas",
+      "title_2": "into Digital Reality",
+      "desc": "From full-stack development to AI automation. I offer tailored services using the latest technologies to ensure speed, security, and scalability."
+    },
+    "stats": {
+      "services": "Specialized Services",
+      "projects": "Completed Projects",
+      "dedication": "Dedication",
+      "support": "Support"
+    },
+    "list": {
+      "frontend": {
+        "title": "Modern Frontend Development",
+        "desc": "Creation of reactive and performant interfaces with React, Vite, and TailwindCSS."
+      },
+      "backend": {
+        "title": "Backend & Custom APIs",
+        "desc": "Secure servers with Node.js/Express and MongoDB or SQL databases. Robust authentication and REST APIs."
+      },
+      "fullstack": {
+        "title": "Full-Stack Solutions",
+        "desc": "End-to-end service: from design to deploy. Complete, fast, and secure web apps."
+      },
+      "chatbot": {
+        "title": "Chatbots & Automation",
+        "desc": "Smart bots for Telegram, WhatsApp, or Web. Automate responses and business processes."
+      },
+      "webapp": {
+        "title": "Interactive Web Apps",
+        "desc": "Dynamic SPA applications with complex logic. Perfect for management tools and platforms."
+      },
+      "consulting": {
+        "title": "Technical Consulting",
+        "desc": "Support for startups: code review, performance optimization, and growth strategies."
+      },
+      "ai": {
+        "title": "ChatGPT & AI Integration",
+        "desc": "Bring AI to your apps. Virtual assistants, content generators, and smart automations."
+      },
+      "seo": {
+        "title": "Technical SEO Optimization",
+        "desc": "Improve ranking for your React sites. Performance analysis and Core Web Vitals."
+      },
+      "uiux": {
+        "title": "UI/UX & Prototyping",
+        "desc": "Intuitive designs in Figma. From wireframes to interactive prototypes, focused on user experience."
+      },
+      "maintenance": {
+        "title": "Maintenance & Support",
+        "desc": "Monitoring, security updates, and new feature implementation post-deploy."
+      }
+    },
+    "card_btn": "Request Quote",
+    "cta": {
+      "title": "Have a project in mind?",
+      "desc": "Not sure which service fits you best? Let's talk. I offer a free initial consultation to analyze your needs.",
+      "btn": "Start Project"
+    }
+  },
+  "contact": {
+    "hero": {
+      "tag": "Let's Talk",
+      "title_1": "Let's Talk About Your",
+      "title_2": "Next Project",
+      "desc": "Have a project in mind? Want to collaborate or just have a chat? Write to me and I'll reply quickly!"
+    },
+    "social": {
+      "title": "Follow me on Socials",
+      "github_sub": "My code",
+      "linkedin_sub": "Network & Jobs",
+      "email_sub": "Write me now",
+      "whatsapp_sub": "Quick chat"
+    },
+    "help": {
+      "title": "How can I help you?",
+      "quote_title": "Request a quote",
+      "quote_desc": "For web projects, development, and consulting.",
+      "collab_title": "Collaborate with me",
+      "collab_desc": "Partnerships and shared projects.",
+      "info_title": "Ask for information",
+      "info_desc": "General questions and support."
+    },
+    "fast_response": {
+      "title": "Fast response guaranteed",
+      "desc": "I reply within <bold>24 working hours</bold>. For urgent matters, email me."
+    },
+    "form": {
+      "title": "Write Me Now",
+      "subtitle": "Fill out the form and I'll get back to you soon.",
+      "success_title": "Message Sent!",
+      "success_desc": "Thanks for contacting me. I will reply as soon as possible.",
+      "success_btn": "Send another message",
+      "labels": {
+        "name": "Full Name",
+        "email": "Email",
+        "subject": "Subject",
+        "message": "Message"
+      },
+      "placeholders": {
+        "name": "John Doe",
+        "email": "john@example.com",
+        "message": "Tell me about your project..."
+      },
+      "subjects": {
+        "quote": "Quote Request",
+        "collab": "Collaboration Proposal",
+        "info": "Information Request",
+        "other": "Other"
+      },
+      "privacy": "I have read and accept the <link>Privacy Policy</link>. I consent to data processing.",
+      "btn_submit": "Send Message",
+      "btn_sending": "Sending...",
+      "security": "Your data is safe.",
+      "error_alert": "Error sending message. Check console or try again later.",
+      "privacy_alert": "You must accept the privacy policy to proceed."
+    }
+  }
+}

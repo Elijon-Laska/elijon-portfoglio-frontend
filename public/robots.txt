@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://elijon-laska.vercel.app/sitemap.xml
