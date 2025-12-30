@@ -7,7 +7,7 @@ import { useTranslation, Trans } from "react-i18next";
 import ElectroBorder from "../lightswind/electro-border.tsx";
 import { Link } from "react-router-dom";
 import FotoProfiloElijon from "../../assets/img/foto.profilo.elijon.jpg";
-import Laptop from "../../assets/img/Laptop.png";
+import Laptop from "../../assets/img/laptop.png";
 import ElijonMatr from "../../assets/img/ElijonMatr.jpeg";
 import {
   Code,
