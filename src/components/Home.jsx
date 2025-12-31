@@ -69,7 +69,7 @@ export default function Home() {
   return (
     <section className="home-presentation container px-4 pt-18 mt-5 mb-0">
       <SEO
-        title={t("navbar.home")}
+        title="Elijon Laska | Full Stack Developer"
         description="Benvenuti nel portfolio di Elijon Laska. Sviluppo soluzioni web scalabili e moderne."
         path="/"
       />

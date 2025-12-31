@@ -9,7 +9,7 @@ export default function SEO({ title, description, path, image }) {
   const metaTitle = title ? `${title} | Elijon Laska` : "Elijon Laska | Full Stack Developer";
   const metaDescription =
     description ||
-    "Portfolio di Elijon Laska, sviluppatore Full Stack specializzato in React, Java, Spring Boot e soluzioni web moderne.";
+    "Elijon Laska, sviluppatore Full Stack specializzato in React, Java, Spring Boot e soluzioni web moderne.";
 
   // Immagine di default per le condivisioni social (mettila in public/preview.jpg)
   const metaImage = image ? `${siteUrl}${image}` : `${siteUrl}/preview-image.jpg`;
@@ -30,7 +30,7 @@ export default function SEO({ title, description, path, image }) {
       <meta property="og:description" content={metaDescription} />
       <meta property="og:image" content={metaImage} />
       <meta property="og:locale" content="it_IT" />
-      <meta property="og:site_name" content="Elijon Laska Portfolio" />
+      <meta property="og:site_name" content="Elijon Laska Full Stack Developer" />
 
       {/* --- TWITTER --- */}
       <meta name="twitter:card" content="summary_large_image" />
