@@ -17,11 +17,13 @@ import App from "./App.jsx";
 import store from "./redux/store/index.js";
 import { Provider } from "react-redux";
 import { HelmetProvider } from "react-helmet-async";
+import { Analytics } from "@vercel/analytics/react";
 
 createRoot(document.getElementById("root")).render(
   <Provider store={store}>
     <HelmetProvider>
       <App />
+      <Analytics />
     </HelmetProvider>
   </Provider>
 );
